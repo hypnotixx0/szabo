@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("szabo.png");
+  background-size: cover;      /* makes it fill the screen */
+  background-position: center; /* keeps it centered */
+  background-attachment: fixed;/* makes it stay while scrolling (optional) */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700; /* bold for titles */
+  font-size: 2rem;
+  color: #222;
+}
+
+.rounded-box-left {
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent box */
+  backdrop-filter: blur(10px);        /* optional frosted effect */
+  border-radius: 30px;                /* rounded corners */
+  padding: 40px 60px;                 /* inner spacing */
+  max-width: 500px;                   /* adjust width */
+  margin: 100px 0 0 50px;             /* top margin and left margin */
+  text-align: left;                   /* left-align text */
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.5); /* soft glow */
+  color: white;                        /* text color */
+  position: relative;                  /* in case you want to layer */
+}
+
+/* Text styling */
+.rounded-box-left h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.rounded-box-left p {
+  font-size: 1.2rem;
+}
+
+.box-image {
+  width: 100%;                        /* full width of box */
+  height: auto;
+  border-radius: 50px;                 /* rounded corners for the image */
+  margin-bottom: 15px;                 /* spacing from text */
+  display: block;
+}
